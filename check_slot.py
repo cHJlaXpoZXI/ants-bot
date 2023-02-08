@@ -44,6 +44,6 @@ else:
     
 # Notification with Discord
 
-    discord = Discord(url="https://discordapp.com/api/webhooks/1069533659507478598/8xUayfoEDHQmcrMWiP2sPOJZDGL0MrVlgbg1JZff5VX3NIJB90Jb33QCVL3nAWsWG5YV")
+    discord = Discord(url="https://discordapp.com/api/webhooks/")
     notification = "Un slot est disponible à {} le {} à {} ! Go check ici : {}".format(city, day, hour, url)
     discord.post(content=notification)
